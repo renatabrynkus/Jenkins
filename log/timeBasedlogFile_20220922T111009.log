@@ -1,0 +1,5 @@
+686 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+722 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\rbrynkus\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+8420 [main] INFO  WebsiteTest - ------> Test started
+8432 [main] INFO  WebsiteTest - ------> Actual title: Kotuszkowo- blog o kotach
+8433 [main] INFO  WebsiteTest - ------> Expected title: Kotuszkowo- blog o kotach

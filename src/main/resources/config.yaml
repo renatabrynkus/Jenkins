@@ -1,0 +1,24 @@
+browser:
+  browserName: chrome
+  browser.attachscreenshot: true
+  browser.headless: false
+  browser.webelement.timeout: 60
+
+testScenario:
+  test:
+    testName: testSii
+    appUrl: https://siiportal.sii.pl
+    tag: regression
+    tag2: sii
+    testRunName: Checking title for siiportal.sii.pl
+    expectedTitle: Logowanie na koncie
+    active: false
+
+  test2:
+    testName: testKotuszkowo
+    appUrl: http://kotuszkowo.pl/
+    tag: regression
+    tag2: kotuszkowo
+    testRunName: Checking title for kotuszkowo.pl
+    expectedTitle: Kotuszkowo- blog o kotach
+    active: true
